@@ -18,6 +18,8 @@ Para uma suite específica:
 
 O runner usa subprocessos porque cada componente chama seu pacote principal de `app`. Um único `pytest` na raiz pode misturar importações. Os testes de Qt usam `QT_QPA_PLATFORM=offscreen`; alguns testes de Tk precisam de uma sessão gráfica Windows e podem abrir janelas brevemente. Os testes usam arquivos temporários e renderização simulada. Não substituem um teste de render real.
 
+Os testes de viewport Tk definem um tamanho máximo explícito para permitir as dimensões testadas mesmo quando o monitor virtual do CI é menor que a janela. As verificações de tamanho, rolagem e conteúdo continuam ativas.
+
 Os resultados da preparação desta publicação ficam em [VALIDATION.md](VALIDATION.md).
 
 ## Mudanças

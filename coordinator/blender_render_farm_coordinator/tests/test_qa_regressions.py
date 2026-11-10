@@ -125,6 +125,9 @@ def test_translated_status_filter_survives_language_change_and_small_window(coor
     original_scale=window.root.tk.call('tk','scaling')
     try:
         window.root.tk.call('tk','scaling',float(original_scale)*scale)
+        # Hosted Windows runners may have a 1024px desktop. Explicitly allow
+        # the test viewport instead of inheriting Tk's screen-sized maximum.
+        window.root.maxsize(1920,1080)
         width,height=int(1366/scale),int(680/scale)
         window.root.geometry(f'{width}x{height}')
         window.root.update()

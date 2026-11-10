@@ -40,6 +40,8 @@ def test_worker_small_window_and_connection_copy(tmp_path,language,scale,gui_roo
     try:
         root.tk.call('tk','scaling',float(original_scale)*scale)
         window._configure_geometry(root)
+        # Keep viewport assertions independent of the runner's monitor size.
+        root.maxsize(1920,1080)
         width,height=int(1366/scale),int(680/scale)
         root.geometry(f'{width}x{height}')
         window._build_window()
