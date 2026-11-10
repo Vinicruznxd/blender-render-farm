@@ -1,0 +1,26 @@
+{
+  "language": "pt",
+  "coordinatorId": "",
+  "host": "127.0.0.1",
+  "port": 8010,
+  "databasePath": "app/data/coordinator.db",
+  "logsDir": "app/data/logs",
+  "generalLogName": "coordinator.log",
+  "schedulerIntervalSeconds": 2.0,
+  "leaseDurationSeconds": 300,
+  "workerRequestTimeoutSeconds": 15.0,
+  "workerStatusGraceSeconds": 20,
+  "maxFrameAttempts": 3,
+  "discoveryTimeoutSeconds": 1.5,
+  "discoveryPorts": [
+    9000
+  ],
+  "coordinatorDiscoveryEnabled": false,
+  "coordinatorDiscoveryPort": 8011,
+  "coordinatorDiscoveryNamespace": "blender_render_farm",
+  "coordinatorDiscoveryBroadcastIntervalSeconds": 5.0,
+  "coordinatorDiscoveryProbeTimeoutSeconds": 1.0,
+  "logTailLines": 200,
+  "autoStartScheduler": true,
+  "autoUnblockBlockedJobs": true
+}

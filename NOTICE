@@ -1,0 +1,35 @@
+Required Notice: Copyright (c) 2026 Vinicius D'Arcadia Cruz (https://github.com/Vinicruznxd)
+
+Blender Render Farm is an independent project. It is not affiliated with,
+endorsed by, or an official product of the Blender Foundation.
+
+LICENSING SCOPE
+
+Except for the exceptions below and separately identified third-party material,
+the original management software, documentation, and project files are offered
+under the PolyForm Noncommercial License 1.0.0 in LICENSE.
+
+EXCEPTIONS
+
+1. worker/blender_render_farm_worker/blender_scripts/ is licensed under
+   GPL-3.0-or-later. It contains the independent programs executed inside
+   Blender, their documentation, and a copy of the GNU GPL. They are not subject
+   to the project's noncommercial restriction. The external manager is not
+   offered under GPL by this notice.
+
+2. Lucide/Feather icon resources retain their original ISC/MIT notices. See
+   THIRD_PARTY_NOTICES.md and each component's img/LUCIDE_LICENSE.txt.
+
+3. Blender names, logos and marks are subject to their owners' rights and usage
+   guidelines. No trademark license is granted by the project license.
+
+4. Blender itself and Python dependencies are separate third-party software.
+   Their licenses are not replaced or restricted by this project's license.
+
+The permissions and restrictions of LICENSE apply to the noncommercial
+management code, including modified or redistributed copies of that code.
+The GPL exception and third-party permissions do not grant a commercial
+license to the noncommercial management code.
+
+See docs/LICENSING.md for a nonbinding explanation. The applicable license
+texts govern. Preserve this notice and applicable third-party notices.

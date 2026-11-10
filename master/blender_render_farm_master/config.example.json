@@ -1,0 +1,13 @@
+{
+  "language": "pt",
+  "mode": "coordinator",
+  "coordinator_url": "http://127.0.0.1:8010",
+  "master_id": "",
+  "master_name": "",
+  "default_worker_port": 9000,
+  "worker_poll_interval_ms": 1000,
+  "worker_timeout_seconds": 60,
+  "default_block_size": 10,
+  "max_block_retries": 2,
+  "workers": []
+}

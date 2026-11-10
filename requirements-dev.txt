@@ -1,0 +1,5 @@
+-r coordinator/blender_render_farm_coordinator/requirements.txt
+-r worker/blender_render_farm_worker/requirements.txt
+-r master/blender_render_farm_master/requirements.txt
+-r image_viewer/BlenderImageViewer/requirements.txt
+pytest>=8.2,<9.0

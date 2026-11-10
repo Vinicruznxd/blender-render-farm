@@ -1,0 +1,52 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Machine settings, credentials and runtime data
+config.json
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+**/app/data/
+logs/
+*.log
+*.db
+*.db-*
+*.sqlite*
+startup_error.txt
+build_info.json
+
+# Local builds, backups, scenes and renders
+build/
+dist/
+releases/
+_restore_points/
+tmp_*/
+.tmp*/
+*.zip
+*.7z
+*.exe
+*.dll
+*.blend
+*.blend1
+*.blend2
+current_ui*.png
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
